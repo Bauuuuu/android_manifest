@@ -93,7 +93,7 @@
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom" remote="arrow" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="arrow" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk" remote="arrow" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="arrow" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="Bauuuuu" />
   <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" groups="pdk" remote="arrow" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="arrow" />
@@ -134,6 +134,8 @@
   <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
+  <project path="vendor/qcom/opensource/cryptfs/hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="Bauuuuu"/>
+
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="arrow"/>
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="arrow">
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
