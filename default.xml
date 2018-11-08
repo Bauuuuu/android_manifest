@@ -8,6 +8,10 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="Bauuuuu"
+           fetch="https://github.com/Bauuuuu"
+           revision="refs/heads/arrow-9.x" />
+
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/"
