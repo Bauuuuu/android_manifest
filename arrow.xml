@@ -15,10 +15,10 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" clone-depth="1" remote="arrow" />
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" clone-depth="1" remote="Bauuuuu" />
 
   <!-- Arrow Core Repos -->
-  <project path="art" name="android_art" remote="arrow" />
+  <project path="art" name="android_art" remote="Bauuuuu" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="Bauuuuu" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="Bauuuuu" />
   <project path="device/arrow/sepolicy" name="android_device_arrow_sepolicy" remote="arrow" />
@@ -96,8 +96,8 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk" remote="arrow" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="Bauuuuu" />
   <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" groups="pdk" remote="arrow" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="arrow" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="Bauuuuu" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="Bauuuuu" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="arrow" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="arrow" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="arrow" />
